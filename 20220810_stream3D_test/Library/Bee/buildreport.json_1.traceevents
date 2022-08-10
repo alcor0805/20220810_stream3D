@@ -1,0 +1,720 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1660113251618261, "dur": 5734619, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113251620298, "dur": 24476, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113251645117, "dur": 55366, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113251700510, "dur": 565143, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113252265656, "dur": 5077141, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113257342818, "dur": 10061, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113271351048, "dur": 1833084, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113271351326, "dur": 5951, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113271357278, "dur": 53006, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113271410287, "dur": 904662, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113272314951, "dur": 857865, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113273172818, "dur": 11313, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113273184857, "dur": 31, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1660113271929457, "dur": 376133, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113271931097, "dur": 62061, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113272285291, "dur": 6291, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113272291586, "dur": 13995, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113272292404, "dur": 12547, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113272310953, "dur": 1632, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660113272310012, "dur": 2600, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113273184959, "dur": 124, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1660113272362727, "dur":1114, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113272363855, "dur":107, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1660113272364020, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1660113272364047, "dur":1545, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1660113272365624, "dur":809, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113272366433, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273140998, "dur":893, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273141891, "dur":57, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273141948, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273141955, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273141995, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273141998, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142015, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142019, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142047, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142051, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142072, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142075, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142084, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142086, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142095, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142096, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142104, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142106, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142114, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142116, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142124, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142126, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142134, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142136, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142145, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142146, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142154, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142155, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142163, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142165, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142172, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142173, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142181, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142183, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142191, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142193, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142200, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142202, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142211, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142213, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142221, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142222, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142230, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142232, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142240, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142242, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142250, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142252, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142260, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142261, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142268, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142270, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142277, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142279, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142287, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142288, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142296, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142297, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142304, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142306, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142313, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142315, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142325, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142326, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142335, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142357, "dur":82, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273142452, "dur":1278, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1660113272365041, "dur":1401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272366443, "dur":2737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272369183, "dur":142358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272511547, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272511805, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272513639, "dur":117586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272631234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272631278, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272632106, "dur":67518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272699629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272699637, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272700566, "dur":134640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272835213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272835223, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272836493, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272837087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272837097, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660113272838255, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272838375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272838711, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272839606, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272839731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272839741, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272840465, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272840570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272840579, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272841650, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272841770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272841779, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272842912, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272843067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272843077, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272844267, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272844387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272844396, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272845277, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272845416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272845425, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272846299, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272846429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272846441, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272847127, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1660113272847149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272847156, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1660113272848655, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1660113272848675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272848682, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1660113272851010, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272851135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272851143, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272851796, "dur":10525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272862328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660113272862339, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1660113272863003, "dur":278049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113272366066, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113272366584, "dur":2529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113272369116, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1660113272369251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113272371742, "dur":140232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1660113272512010, "dur":108706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113272620720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113272620727, "dur":609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113272621356, "dur":79281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113272700642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113272700649, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113272701141, "dur":123510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113272824659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113272824671, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113272825758, "dur":221801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113273047565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660113273047574, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1660113273048381, "dur":92625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113272366225, "dur":381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113272366606, "dur":2548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113272369160, "dur":1421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1660113272370584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113272371657, "dur":140734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1660113272512431, "dur":115320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113272627756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113272627763, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113272628335, "dur":104785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113272733133, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113272733147, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113272734033, "dur":52105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113272786145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113272786158, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113272786789, "dur":69698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113272856494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660113272856504, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660113272857257, "dur":283696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272365108, "dur":1342, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272366451, "dur":2743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272369225, "dur":147409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1660113272516639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272516646, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1660113272518125, "dur":99518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272617648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272617657, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272618349, "dur":90301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272708656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272708665, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272709774, "dur":4606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272714385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272714392, "dur":525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272714933, "dur":93859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272808801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272808812, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272809717, "dur":134394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272944120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660113272944132, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660113272945561, "dur":195399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113272365158, "dur":1300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113272366458, "dur":2774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113272369242, "dur":57408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272426660, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113272426724, "dur":86275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272513030, "dur":107824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272620860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113272620869, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272621561, "dur":82887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272704456, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113272704498, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272705452, "dur":112723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272818183, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113272818196, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272819102, "dur":59907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272879017, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660113272879028, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660113272879770, "dur":261265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660113272365216, "dur":1253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660113272366469, "dur":2696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660113272369177, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660113272369441, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660113272390023, "dur":507252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660113272897297, "dur":243767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113272365330, "dur":1152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113272366483, "dur":2691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113272369176, "dur":1956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1660113272371136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113272371420, "dur":141238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1660113272512688, "dur":132759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113272645453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113272645464, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113272646292, "dur":58594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113272704892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113272704900, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113272705604, "dur":308444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113273014053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660113273014060, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660113273015017, "dur":126012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113272365379, "dur":1110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113272366489, "dur":2725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113272369217, "dur":141868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113272511091, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113272511101, "dur":3426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113272514557, "dur":109042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113272623605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113272623614, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113272624489, "dur":71574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113272696072, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113272696085, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113272696947, "dur":60034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113272756990, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113272757003, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113272757920, "dur":294909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113273052834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660113273052841, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660113273055640, "dur":85331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113272366280, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113272366612, "dur":2576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113272369191, "dur":613161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113272982357, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1660113272982364, "dur":22905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1660113273005286, "dur":135708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113272365555, "dur":955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113272366510, "dur":2725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113272369236, "dur":73017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113272442262, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113272442276, "dur":71469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113272513787, "dur":129806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113272643598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113272643607, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113272644434, "dur":176500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113272820941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113272820952, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113272822905, "dur":314741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113273137652, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1660113273137661, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1660113273140848, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1660113273140851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113272365584, "dur":932, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113272366516, "dur":2654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113272369172, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1660113272369395, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113272389352, "dur":122643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1660113272512032, "dur":139479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113272651552, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113272651565, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113272652428, "dur":56155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113272708589, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113272708600, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113272709707, "dur":90639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113272800354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113272800401, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113272801218, "dur":59115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113272860368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1660113272860377, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1660113272861364, "dur":279647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113272365633, "dur":889, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113272366523, "dur":2726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113272369250, "dur":141846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272511104, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113272511116, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272514207, "dur":99513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272613762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113272613774, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272614674, "dur":69300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272683987, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113272684004, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272684924, "dur":77538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272762469, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113272762479, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272763184, "dur":143564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272906758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1660113272906770, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1660113272907844, "dur":233140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113272366508, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113272366508, "dur":2690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113272369200, "dur":141819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball.exe" }}
+,{ "pid":12345, "tid":13, "ts":1660113272511058, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113272511069, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball.exe" }}
+,{ "pid":12345, "tid":13, "ts":1660113272513136, "dur":132687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113272645829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113272645838, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113272646598, "dur":60874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113272707479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113272707488, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113272708255, "dur":52952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113272761218, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113272761232, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113272762089, "dur":98193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113272860288, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1660113272860297, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1660113272861354, "dur":279597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113272365717, "dur":812, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113272366529, "dur":2681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113272369211, "dur":141589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113272510809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113272510818, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113272513560, "dur":177217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113272690785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113272690800, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113272691827, "dur":78517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113272770350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113272770360, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113272771019, "dur":120339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113272891365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1660113272891375, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1660113272892374, "dur":248615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113272365770, "dur":765, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113272366536, "dur":2607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113272369151, "dur":29307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1660113272398467, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113272398481, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1660113272399379, "dur":111405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113272510794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113272510807, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113272513744, "dur":109674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113272623423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113272623430, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113272624197, "dur":160412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113272784617, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113272784630, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113272785414, "dur":228425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113273013847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1660113273013858, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1660113273016201, "dur":124799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113272365810, "dur":731, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113272366542, "dur":2589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113272369132, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1660113272369252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113272371610, "dur":140406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1660113272512051, "dur":151105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113272663166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113272663179, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113272664146, "dur":85608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113272749763, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113272749776, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113272750833, "dur":121002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113272871844, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1660113272871856, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1660113272872857, "dur":268222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113272365850, "dur":697, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113272366547, "dur":2587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113272369135, "dur":2103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1660113272371244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1660113272371730, "dur":521081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1660113272892835, "dur":248197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113272365891, "dur":662, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113272366554, "dur":2604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113272369161, "dur":141599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1660113272510770, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113272510804, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1660113272512426, "dur":113764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113272626196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113272626207, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113272627110, "dur":72349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113272699465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113272699475, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113272700416, "dur":94455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113272794877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113272794886, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113272795587, "dur":141450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113272937046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1660113272937059, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1660113272938233, "dur":202849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113272365931, "dur":629, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113272366561, "dur":2575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113272369145, "dur":1817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":19, "ts":1660113272370968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113272371903, "dur":20782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":19, "ts":1660113272392710, "dur":118403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113272511120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113272511131, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113272514235, "dur":109829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113272624071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113272624080, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113272624773, "dur":65309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113272690089, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113272690103, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113272690972, "dur":194614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113272885595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1660113272885606, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1660113272886444, "dur":254603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113272365973, "dur":594, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113272366567, "dur":2558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113272369129, "dur":1279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1660113272370412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1660113272371778, "dur":521023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1660113272892828, "dur":248265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272366017, "dur":556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272366573, "dur":2557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272369130, "dur":29645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1660113272398781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272398825, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1660113272399502, "dur":111535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272511067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272511079, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272514366, "dur":105104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272619475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272619482, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272620043, "dur":79090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272699141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272699153, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272700083, "dur":74031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272774118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272774127, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272775341, "dur":134972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272910320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1660113272910331, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":21, "ts":1660113272911197, "dur":229873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272366052, "dur":527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272366579, "dur":2529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272369115, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":22, "ts":1660113272369254, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272389327, "dur":10454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":22, "ts":1660113272399802, "dur":111295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272511103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272511113, "dur":3289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272514429, "dur":103772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272618207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272618216, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272618900, "dur":67464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272686372, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272686386, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272687182, "dur":54796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272741988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272742002, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272742792, "dur":48576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272791379, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272791393, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272792234, "dur":158161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272950404, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1660113272950449, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":22, "ts":1660113272951407, "dur":189678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113272365270, "dur":1206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113272366476, "dur":2731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113272369219, "dur":141975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272511201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113272511211, "dur":3461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272514690, "dur":90063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272604766, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113272604783, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272605712, "dur":101496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272707215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113272707224, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272707997, "dur":3245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272711277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113272711288, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272711987, "dur":68889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272780881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113272780891, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113272781615, "dur":234062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113273015681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1660113273015707, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":23, "ts":1660113273018070, "dur":122898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272366104, "dur":485, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272366590, "dur":2521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272369127, "dur":32245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":24, "ts":1660113272401377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272401388, "dur":109998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":24, "ts":1660113272511432, "dur":103797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272615235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272615246, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272616082, "dur":107561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272723649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272723656, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272724336, "dur":46915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272771259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272771271, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272772010, "dur":56888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272828906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272828918, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272829754, "dur":1394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272831153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272832767, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272834033, "dur":2318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272836356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272836406, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":24, "ts":1660113272838812, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272838932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272838966, "dur":580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272839567, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272839693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272839702, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272841902, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272842055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272842067, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272842979, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272843122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272843133, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272843962, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272844080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272844090, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272844760, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272844887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272844896, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272845543, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272845652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272845661, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":24, "ts":1660113272846445, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":24, "ts":1660113272846477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272846539, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":24, "ts":1660113272847852, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":24, "ts":1660113272847877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272847885, "dur":5709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":24, "ts":1660113272853621, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":24, "ts":1660113272853650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1660113272853659, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":24, "ts":1660113272857578, "dur":283436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113272366143, "dur":452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113272366595, "dur":2520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113272369117, "dur":32369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":25, "ts":1660113272401491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113272401501, "dur":109869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":25, "ts":1660113272511398, "dur":97271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1660113272608679, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113272608692, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1660113272609563, "dur":113662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1660113272723233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113272723245, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1660113272724321, "dur":42411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":25, "ts":1660113272766737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113272766745, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":25, "ts":1660113272767478, "dur":114115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":25, "ts":1660113272881600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1660113272881610, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":25, "ts":1660113272882377, "dur":258600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272366209, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272366601, "dur":2526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272369129, "dur":2044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":26, "ts":1660113272371178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272371922, "dur":26365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":26, "ts":1660113272398309, "dur":39399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113272437721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272437735, "dur":75760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113272513528, "dur":127403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113272640938, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272640949, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113272641634, "dur":56079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113272697719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272697729, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113272698346, "dur":155255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113272853607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272853617, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":26, "ts":1660113272854869, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/level0" }}
+,{ "pid":12345, "tid":26, "ts":1660113272854894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272854901, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/level0" }}
+,{ "pid":12345, "tid":26, "ts":1660113272856752, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/boot.config" }}
+,{ "pid":12345, "tid":26, "ts":1660113272856901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1660113272856909, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/boot.config" }}
+,{ "pid":12345, "tid":26, "ts":1660113272858072, "dur":282891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113272365420, "dur":1076, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113272366496, "dur":2723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113272369221, "dur":55404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113272424634, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113272424986, "dur":87845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113272512862, "dur":221598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113272734499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113272734511, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113272736367, "dur":52551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113272788925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113272788936, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113272789847, "dur":167703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113272957558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1660113272957570, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":27, "ts":1660113272959238, "dur":181729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113272365503, "dur":1001, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113272366504, "dur":2681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113272369187, "dur":389490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113272758687, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113272758743, "dur":8630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113272767403, "dur":198544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113272965954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1660113272965963, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":28, "ts":1660113272967244, "dur":173743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272366321, "dur":296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272366617, "dur":2515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272369133, "dur":21091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":29, "ts":1660113272390228, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272390273, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":29, "ts":1660113272391588, "dur":119419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272511013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272511023, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272514201, "dur":121151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272635360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272635372, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272636400, "dur":77028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272713434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272713443, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272714086, "dur":51653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272765749, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272765801, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272766468, "dur":211382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272977859, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1660113272977871, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":29, "ts":1660113272979074, "dur":161911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113272366376, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113272366623, "dur":2484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113272369115, "dur":142027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":30, "ts":1660113272511146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113272511552, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":30, "ts":1660113272512935, "dur":212191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113272725131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113272725138, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113272725787, "dur":53293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113272779090, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113272779106, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113272779907, "dur":218379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113272998293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1660113272998302, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":30, "ts":1660113272999263, "dur":141718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272366435, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272366436, "dur":2662, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272369115, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":31, "ts":1660113272369126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272370200, "dur":697, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":31, "ts":1660113272370902, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/app.info" }}
+,{ "pid":12345, "tid":31, "ts":1660113272370942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272371278, "dur":20263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/app.info" }}
+,{ "pid":12345, "tid":31, "ts":1660113272391544, "dur":58507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272450057, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272450069, "dur":64020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272514118, "dur":121786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272635909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272635917, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272636687, "dur":67869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272704563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272704573, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272705432, "dur":102840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272808279, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272808289, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272809436, "dur":119619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272929064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1660113272929075, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":31, "ts":1660113272930294, "dur":210671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272366472, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272366473, "dur":2729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272369205, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":32, "ts":1660113272369407, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272389892, "dur":134889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":32, "ts":1660113272524801, "dur":102529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113272627334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272627342, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113272627882, "dur":60759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113272688654, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272688671, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113272689791, "dur":87208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113272777003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272777012, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113272777756, "dur":58393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113272836156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272836165, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":32, "ts":1660113272837221, "dur":16072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":32, "ts":1660113272853300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272853775, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":32, "ts":1660113272854619, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/resources.assets" }}
+,{ "pid":12345, "tid":32, "ts":1660113272854679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272854686, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/resources.assets" }}
+,{ "pid":12345, "tid":32, "ts":1660113272855730, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":32, "ts":1660113272855756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272855763, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":32, "ts":1660113272856730, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D://basketball/VRBasketball_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":32, "ts":1660113272856761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1660113272856768, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D://basketball/VRBasketball_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":32, "ts":1660113272857585, "dur":283384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660113273144790, "dur":2877, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1660113273185124, "dur": 756, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660113273184844, "dur": 1057, "ph": "X", "name": "Write chrome-trace events", "args": {} },
