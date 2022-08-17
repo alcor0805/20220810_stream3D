@@ -869,6 +869,7 @@ namespace Valve.VR.InteractionSystem
 
 			if ( teleportPoint != null )
 			{
+				print("兩分");
 				teleportPosition = teleportPoint.transform.position;
 
 				//Teleport to a new scene
@@ -883,6 +884,7 @@ namespace Valve.VR.InteractionSystem
 			TeleportArea teleportArea = teleportingToMarker as TeleportArea;
 			if ( teleportArea != null )
 			{
+				print("三分");
 				if ( floorFixupMaximumTraceDistance > 0.0f )
 				{
 					RaycastHit raycastHit;

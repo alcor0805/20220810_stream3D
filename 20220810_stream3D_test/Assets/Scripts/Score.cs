@@ -7,7 +7,7 @@ namespace Alcor
 
         private string nameBasketball = "Äx²y";
         private TextMeshProUGUI textScore;
-        private int addScore = 2;
+        private static int addScore = 2;
         private int totalScore;
         private void Awake()
         {
