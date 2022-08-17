@@ -173,6 +173,7 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
+		private GameObject goBasketballCenter;
 		void Start()
         {
             teleportMarkers = GameObject.FindObjectsOfType<TeleportMarkerBase>();
@@ -191,6 +192,7 @@ namespace Valve.VR.InteractionSystem
 			CheckForSpawnPoint();
 
 			if(isTutorial) Invoke( "ShowTeleportHint", 5.0f );
+			goBasketballCenter = GameObject.Find("籃球框中心");
 		}
 
 
@@ -870,6 +872,7 @@ namespace Valve.VR.InteractionSystem
 			if ( teleportPoint != null )
 			{
 				print("兩分");
+				goBasketballCenter.SendMessage("ChangeScore", 2);
 				teleportPosition = teleportPoint.transform.position;
 
 				//Teleport to a new scene
@@ -885,6 +888,7 @@ namespace Valve.VR.InteractionSystem
 			if ( teleportArea != null )
 			{
 				print("三分");
+				goBasketballCenter.SendMessage("ChangeScore", 3);
 				if ( floorFixupMaximumTraceDistance > 0.0f )
 				{
 					RaycastHit raycastHit;

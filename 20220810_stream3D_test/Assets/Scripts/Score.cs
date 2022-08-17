@@ -25,6 +25,10 @@ namespace Alcor
             totalScore += addScore;
             textScore.text = "Score: " + totalScore;
         }
+        private void ChangeScore(int ScoretoChange)
+        {
+            addScore = ScoretoChange;
+        }
     }
 }
 
