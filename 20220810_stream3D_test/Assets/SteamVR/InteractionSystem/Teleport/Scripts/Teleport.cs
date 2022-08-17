@@ -13,6 +13,8 @@ namespace Valve.VR.InteractionSystem
 	//-------------------------------------------------------------------------
 	public class Teleport : MonoBehaviour
     {
+		[SerializeField, Header("是否顯示教學")]
+		private bool isTutorial;
         public SteamVR_Action_Boolean teleportAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("Teleport");
 
         public LayerMask traceLayerMask;
@@ -188,7 +190,7 @@ namespace Valve.VR.InteractionSystem
 
 			CheckForSpawnPoint();
 
-			Invoke( "ShowTeleportHint", 5.0f );
+			if(isTutorial) Invoke( "ShowTeleportHint", 5.0f );
 		}
 
 
